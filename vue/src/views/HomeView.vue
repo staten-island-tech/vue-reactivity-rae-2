@@ -1,9 +1,9 @@
 <template>
   <div>
     <DestCard 
-    v-for="destination in destinations" 
-    :key="destination.name" 
-    :Destination="destination">
+    v-for="whale in whales" 
+    :key="whale.name" 
+    :Whale="whale">
   </DestCard>
   
   </div>
@@ -11,7 +11,12 @@
 
 <script setup>
 import DestCard from '@/components/icons/DestCard.vue';
-const destinations = [
+const bowl = [
+  {
+    bowlimg: "https://m.media-amazon.com/images/I/71rUwkdGglL.jpg",
+  },
+];
+const whales = [
         {
           name: "Venetian Renaissance",
           International: true,

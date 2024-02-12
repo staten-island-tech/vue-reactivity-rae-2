@@ -1,8 +1,8 @@
 <template>
     <div>
-        <h2>{{ Destination.name }}</h2>
-        <img :src="Destination.img" alt="">
-        <button @click="increment">Click Me</button>
+        <h2>{{ whale.name }}</h2>
+        <img :src="whale.img" alt="">
+        <button @click="increment">Add Whale</button>
         <h3>{{ clicked }}</h3>
     </div>
 </template>
@@ -10,7 +10,7 @@
 <script setup>
 import {ref, reactive} from "vue";
 const props = defineProps({
-    Destination: Object,
+    whale: Object,
 });
 
 //clicker logic
