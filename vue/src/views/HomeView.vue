@@ -31,12 +31,12 @@ const whales = [
         {
           name: "Pilot Whale",
           Big: true,
-          img: "https://www.acsonline.org/assets/images/globicephala-melas.png",
+          img: "https://www.northsailing.is/wp-content/uploads/2017/05/MC068grindhvalur.jpg",
         },
         {
           name: "Pygmy Sperm Whale",
           Big: true,
-          img: "https://www.acsonline.org/assets/images/kogia-breviceps.png",
+          img: "https://www.aquariumofpacific.org/images/olc/kbreviceps2.jpg",
         },
         {
           name: "Sei Whale",
