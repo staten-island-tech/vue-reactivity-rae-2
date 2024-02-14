@@ -1,16 +1,16 @@
 <template>
     <div>
-        <h2>{{ whale.name }}</h2>
-        <img :src="whale.img" alt="">
+        <h2>{{ Whale.name }}</h2>
+        <img :src="Whale.img" alt="" class="card-img">
         <button @click="increment">Add Whale</button>
         <h3>{{ clicked }}</h3>
     </div>
 </template>
 
 <script setup>
-import {ref, reactive} from "vue";
+import {ref} from "vue";
 const props = defineProps({
-    whale: Object,
+    Whale: Object,
 });
 
 //clicker logic

@@ -1,9 +1,10 @@
 <template>
   <div>
-    <DestCard 
+    <DestCard
     v-for="whale in whales" 
-    :key="whale.name" 
-    :Whale="whale">
+    :key="whales.name" 
+    :Whale="whale"
+    @click="addtoBowl(bowl)"><!--  i have no idea if this is it -->
   </DestCard>
   
   </div>
@@ -18,40 +19,34 @@ const bowl = [
 ];
 const whales = [
         {
-          name: "Venetian Renaissance",
-          International: true,
-          price: 1300,
-          img: "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80&quot;",
+          name: "Baleen Whale",
+          Big: true,
+          img: "https://oceananimals.org/wp-content/uploads/2021/05/Humpback-Graphic-1-e1619925628948-1024x711.png",
         },
         {
-          name: "Swiss Mountain Getaway",
-          International: true,
-          price: 800,
-          img: "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1476&q=80&quot;",
+          name: "Narwhal",
+          Big: true,
+          img: "https://images.squarespace-cdn.com/content/v1/62a5e640df138f7689bde14b/1655219797187-68BBLSTD0Y3WAAJ3UJ82/14B35550-E738-452A-984B-7F294510998E.jpeg?format=1000w",
         },
         {
-          name: "Ibizan Coastal Vacation",
-          International: true,
-          price: 1200,
-          img: "https://images.unsplash.com/photo-1547138494-97041dec734b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80&quot;",
+          name: "Pilot Whale",
+          Big: true,
+          img: "https://www.acsonline.org/assets/images/globicephala-melas.png",
         },
         {
-          name: "Hawaiian Vacation",
-          International: false,
-          price: 900,
-          img: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1173&q=80&quot;",
+          name: "Pygmy Sperm Whale",
+          Big: true,
+          img: "https://www.acsonline.org/assets/images/kogia-breviceps.png",
         },
         {
-          name: "Cascade Mountains",
-          International: false,
-          price: 400,
-          img: "https://images.unsplash.com/photo-1511497584788-876760111969?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1332&q=80&quot;",
+          name: "Sei Whale",
+          Big: true,
+          img: "https://whaleopedia.org/animalfund/wp-content/uploads/2013/10/Sei-Whale1.png",
         },
         {
-          name: "Egyptian Exploration",
-          International: true,
-          price: 800,
-          img: "https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80&quot;",
+          name: "Whalen",
+          Big: true,
+          img: "https://3.files.edl.io/aeb1/20/12/02/154937-46cc468f-b7f4-4bb3-945e-3265bdb605d4.jpg",
         },
       ];
 </script>
