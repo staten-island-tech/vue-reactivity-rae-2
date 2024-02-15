@@ -1,8 +1,8 @@
 <template>
     <div>
-        <h2>{{ Whale.name }}</h2>
+        <h2 class="thename">{{ Whale.name }}</h2>
         <img :src="Whale.img" alt="" class="image">
-        <button @click="increment">Add Whale</button>
+        <button @click="increment" class="thebutton">Add Whale</button>
         <h3>{{ clicked }}</h3>
     </div>
 </template>
@@ -21,10 +21,26 @@ function increment(){
 </script>
 
 <style scoped>
-img {
+.image {
     width: 300px;
     height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
 
+.thename{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: 'Manrope', sans-serif;
+    margin-top: 10px;
+}
+
+.thebutton{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Manrope', sans-serif;
 }
 
 </style>
