@@ -12,11 +12,7 @@
 
 <script setup>
 import DestCard from '@/components/icons/DestCard.vue';
-const bowl = [
-  {
-    bowlimg: "https://m.media-amazon.com/images/I/71rUwkdGglL.jpg",
-  },
-];
+
 const whales = [
         {
           name: "Baleen Whale",

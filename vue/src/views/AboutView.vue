@@ -1,15 +1,17 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="bowl">
+    <h1>
+      <img src="https://m.media-amazon.com/images/I/71rUwkdGglL.jpg" alt="" class="bowlimg">
+    </h1>
   </div>
 </template>
 
 <style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
+  .bowlimg {
+    max-width: 760px;
+    max-height: 760px;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
   }
-}
 </style>
