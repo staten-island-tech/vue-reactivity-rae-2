@@ -22,11 +22,12 @@ function increment(){
 
 <style scoped>
 .image {
-    width: 300px;
-    height: 300px;
+    width: 15%;
+    height: 15%;
     display: flex;
     flex-wrap: wrap;
     margin-top: 5px;
+
 }
 
 .thename{

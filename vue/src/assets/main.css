@@ -20,4 +20,5 @@ body,
     justify-content: space-around;
     font-family: 'Manrope', sans-serif;
     margin-top: 10px;
+    align-items: center;
 }

@@ -31,8 +31,8 @@ const whales = [
         },
         {
           name: "Pygmy Sperm Whale",
-          Big: true,
-          img: "https://www.aquariumofpacific.org/images/olc/kbreviceps2.jpg",
+          Big: false,
+          img: "https://www.researchgate.net/publication/323780767/figure/fig10/AS:631577352605746@1527591183407/The-pygmy-sperm-whale-Kogia-breviceps-Illustration-from-Laura-Hedon.png",
         },
         {
           name: "Sei Whale",
