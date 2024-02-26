@@ -8,9 +8,8 @@
 </template>
 
 <script setup>
-function addtoBowl(){
-  
-}
+import { whales } from './HomeView.vue';
+const whaleinbowls = new whales
 </script>
 
 <style>
