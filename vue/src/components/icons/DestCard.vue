@@ -29,10 +29,11 @@ function increment(){
     justify-content: space-around;
     font-family: 'Manrope', sans-serif;
     margin-top: 10px;
+    flex-direction: column;
 }
 
 #thename{
-    align-items: center;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -46,10 +47,10 @@ function increment(){
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
+
 }
 #thebutton{
-    align-items: center;
+
     display: flex;
     flex-wrap: wrap;
     font-family: 'Manrope', sans-serif;
