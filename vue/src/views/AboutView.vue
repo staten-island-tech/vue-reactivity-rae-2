@@ -4,7 +4,14 @@
       <img src="https://m.media-amazon.com/images/I/71rUwkdGglL.jpg" alt="" class="bowlimg">
     </h1>
   </div>
+  
 </template>
+
+<script setup>
+function addtoBowl(){
+  
+}
+</script>
 
 <style>
   .bowlimg {
