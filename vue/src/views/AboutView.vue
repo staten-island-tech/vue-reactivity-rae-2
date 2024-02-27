@@ -10,6 +10,9 @@
 <script setup>
 import { whales } from './HomeView.vue';
 const whaleinbowls = new whales
+function showWhales(){
+  whales.addWhales()
+}
 </script>
 
 <style>
