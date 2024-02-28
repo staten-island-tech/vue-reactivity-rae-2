@@ -45,8 +45,7 @@ const whales = [
           img: "https://3.files.edl.io/aeb1/20/12/02/154937-46cc468f-b7f4-4bb3-945e-3265bdb605d4.jpg",
         },
       ];
-
-      export {whales}
+export {whales}
 </script>
 
 <style scoped>
