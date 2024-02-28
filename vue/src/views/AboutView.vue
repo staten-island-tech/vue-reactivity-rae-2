@@ -9,7 +9,7 @@ function toggle() {
 </script>
 
 <template>
-<button @click="toggle">Add Whale</button>
+<button @click="toggle">Get Whales</button>
   <h1 v-if="awesome"><img src="https://m.media-amazon.com/images/I/71rUwkdGglL.jpg" alt="" class="bowlimg"></h1>
   <h1 v-else>You can't put whales in a goldfish bowl HAHAH </h1>
 </template>

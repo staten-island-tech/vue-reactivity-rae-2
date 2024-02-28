@@ -3,11 +3,11 @@
         <h2 id="thename">{{ Whale.name }}</h2>
         <img :src="Whale.img" alt="" id="image">
         <button @click="increment" id="thebutton">Add Whale</button>
+        <h3> {{ clicked }}</h3>
     </div>
 </template>
 
 <script setup>
-import { whales } from './HomeView.vue';
 import { ref } from 'vue';
 const props = defineProps({
     Whale: Object,
