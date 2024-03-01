@@ -3,8 +3,7 @@
     <DestCard
     v-for="whale in whales" 
     :key="whales.name" 
-    :Whale="whale"
-    @click="addtoBowl(bowl)"><!--  i have no idea if this is it -->
+    :Whale="whale">
   </DestCard>
   
   </div>
